@@ -1,0 +1,11 @@
+.tabContainer{
+    flex-grow:1;
+    display:flex;
+    justify-content:center;
+}
+
+form{
+    height:564px;
+    width:577px;
+    @apply p-8 bg-white border border-border-color rounded-lg;
+}

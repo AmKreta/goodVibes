@@ -1,0 +1,3 @@
+button{
+    @apply px-2 py-1 bg-primary-color shadow-sm rounded-md text-font-white-color font-poppins font-medium text-font-16 leading-6;
+}

@@ -1,0 +1,13 @@
+nav{
+    padding:var(--container-padding);
+    @apply flex align-middle gap-8;
+}
+
+a{
+   @apply opacity-40 hover:cursor-pointer;
+   transition: .5s ease-in-out;
+}
+
+a.active{
+    @apply opacity-100;
+}
