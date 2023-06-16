@@ -1,7 +1,5 @@
 .tabContainer{
-    flex-grow:1;
-    display:flex;
-    justify-content:center;
+    @apply flex-1 flex justify-center
 }
 
 form{
