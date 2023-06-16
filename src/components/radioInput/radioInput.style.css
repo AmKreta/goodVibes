@@ -1,0 +1,30 @@
+input[type=radio]{
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    @apply hover:cursor-pointer h-0.5 w-0.5 border-border-color border-2;
+}   
+
+input[type=radio]:checked{
+   @apply border-primary-color;
+}
+
+input[type=radio]:checked::after {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    box-shadow: inset 1em 1em var(--primary-color);
+}
+
+.radio-input-container{
+    @apply flex items-center gap-1 py-2 h-9;
+}
+
+.placeholder-text{
+    @apply text-font-placeholder-color font-poppins text-font-14;
+}
+
+  
