@@ -12,7 +12,7 @@ const CreateJob: React.FC<any> = () => {
     }
 
     return <div className='tabContainer'>
-        {activeForm === 2
+        {activeForm === 1
             ? <Form1 onSave={onSave} />
             : <Form2 onSave={onSave} />}
     </div>
