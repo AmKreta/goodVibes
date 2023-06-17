@@ -10,7 +10,8 @@ module.exports = {
         'font-error-color': '#D86161',
         'font-placeholder-color': '#7A7A7A',
         'font-white-color': '#FAFAFA',
-        'primary-color': '#1597E4'
+        'primary-color': '#1597E4',
+        'grey-color':'#4D4D4D'
       },
       fontFamily: {
         'poppins': "'Poppins', sans-serif"
@@ -18,7 +19,8 @@ module.exports = {
       fontSize: {
         'font-14': '14px',
         'font-16':'16px',
-        'font-20': '20px'
+        'font-20': '20px',
+        'font-24':'24px'
       }
     },
   },
